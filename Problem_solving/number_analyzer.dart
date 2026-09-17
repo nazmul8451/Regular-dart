@@ -13,19 +13,20 @@ void main() {
   }
 
   if (num > 0) {
-    print('Positive');
+    print("Positive");
+  } else if (num < 0) {
+    print("Negative");
   } else {
-    print('Negative');
+    print("Zero");
   }
 
   if (num % 3 == 0 && num % 5 == 0) {
     print('3 diye Divisible hobe and 5 dieo');
-  }else{
+  } else {
     print("divisible not possible");
   }
 
-
-  if(num>10 && num <100){
+  if (num >= 10 && num <= 100) {
     print("10–100 এর মধ্যে ");
   }
 }
