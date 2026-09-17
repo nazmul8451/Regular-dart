@@ -13,12 +13,12 @@ void main() {
   String? userPass = stdin.readLineSync();
 
   if (correctEmail == userEmail && correctPass == userPass) {
-    print("Login Successfull");
+    print("Login Successful");
+  } else if (correctEmail != userEmail && correctPass != userPass) {
+    print("Invalid email and password");
   } else if (correctEmail != userEmail) {
-    print("Please enter valid email");
+    print("Invalid email");
   } else if (correctPass != userPass) {
-    print("Please enter valid password");
-  } else {
-    print("Please enter a valid email and password");
+    print("Invalid password");
   }
 }
