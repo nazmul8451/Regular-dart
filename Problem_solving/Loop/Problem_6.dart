@@ -17,7 +17,7 @@ void main() {
     }
   }
   print(total_sum);
-  print("Event count: $even_count");
+  print("Even count: $even_count");
   print("Odd count: $odd_count");
   print("Event sum: $even_sum");
   print("Odd sum: $odd_sum");
